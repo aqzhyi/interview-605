@@ -1,0 +1,51 @@
+{
+  "name": "605-interview",
+  "description": "make sure to use React v17 and vite to complete the interview questions",
+  "packageManager": "pnpm@10.20.0",
+  "private": true,
+  "types": "module",
+  "devDependencies": {
+    "@onlywatch/tsconfigs": "1.0.0",
+    "@playwright/test": "1.56.1",
+    "@tailwindcss/postcss": "4.1.16",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "12.1.5",
+    "@testing-library/react-hooks": "8.0.1",
+    "@testing-library/user-event": "14.6.1",
+    "@types/node": "24.9.2",
+    "@types/react": "17.0.89",
+    "@types/react-dom": "17.0.25",
+    "@vitejs/plugin-react": "5.1.0",
+    "@vitest/coverage-v8": "4.0.6",
+    "jsdom": "27.1.0",
+    "oxlint": "1.25.0",
+    "playwright": "1.56.1",
+    "prettier": "3.6.2",
+    "prettier-plugin-jsdoc": "1.5.0",
+    "prettier-plugin-tailwindcss": "0.7.1",
+    "tailwindcss": "4.1.16",
+    "typescript": "5.9.3",
+    "vite": "7.1.12",
+    "vite-tsconfig-paths": "5.1.4",
+    "vitest": "4.0.6"
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "swr": "1.3.0",
+    "tailwind-merge": "3.3.1",
+    "zod": "4.1.12"
+  },
+  "scripts": {
+    "dev": "vite --port 60733",
+    "build": "vite build",
+    "start": "vite preview --port 60733",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "lint": "oxlint",
+    "format": "prettier --write . && oxlint --fix --fix-suggestions",
+    "tsc": "tsc --noEmit"
+  }
+}

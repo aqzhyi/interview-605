@@ -1,0 +1,32 @@
+{
+  "chat.instructionsFilesLocations": {
+    "AGENTS/instructions": true
+  },
+  "chat.promptFilesLocations": {
+    "AGENTS/prompts": true
+  },
+  "biome.enabled": false,
+  "cSpell.enabled": true,
+  "cSpell.userWords": [],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.enable": false,
+  "oxc.enable": true,
+  "prettier.enable": true,
+  "tailwind-fold.foldStyle": "QUOTES",
+  "tailwindCSS.classFunctions": [
+    "twJoin",
+    "twMerge",
+    "cva",
+    "cx",
+    "clsx",
+    "cn"
+  ],
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "classNames",
+    "ngClass",
+    "class:list"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
